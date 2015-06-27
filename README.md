@@ -6,7 +6,7 @@ Simple jQuery plugin that attaches events outside of the element or the bunch of
 
 ## Usage
 
-First of all include download and include [jQuery](http://jquery.com/download/) and [jQuery.onOut](https://github.com/FinesseRus/jQuery.onOut/archive/master.zip) plugin to HTML:
+First of all download and include [jQuery](http://jquery.com/download/) and [jQuery.onOut](https://github.com/FinesseRus/jQuery.onOut/archive/master.zip) plugin to HTML:
 
 	<script src="jquery-1.11.3.min.js"></script>
 	<script src="jquery-onout-1.0.min.js"></script>
@@ -25,9 +25,14 @@ Parameters:
 
 Example:
 
-	<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente officia doloremque, eos quae dicta qui nobis tempore omnis a numquam ipsum id velit aliquid cum corporis rerum veritatis itaque quibusdam.</div>
+	<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+	Sapiente officia doloremque, eos quae dicta qui nobis tempore 
+	omnis a numquam ipsum id velit aliquid cum corporis rerum 
+	veritatis itaque quibusdam.</div>
 	<div id="target">Click me!</div>
-	<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime mollitia facilis iusto voluptas. Repudiandae ab accusantium doloribus, facilis! Reprehenderit, quia.</div>
+	<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+	Maxime mollitia facilis iusto voluptas. Repudiandae ab accusantium 
+	doloribus, facilis! Reprehenderit, quia.</div>
 
 	<script>
 		$('#target').onOut('click', function() {
@@ -37,4 +42,4 @@ Example:
 
 ### .bindOut
 
-Alias to [`.onOut`](#.onOut)
+Alias to [`.onOut`](#onout)

@@ -1,4 +1,4 @@
-/*
+/**
 	jQuery plugin that binds event outside of the element(s)
 
 	https://github.com/FinesseRus/jQuery.onOut
@@ -9,9 +9,14 @@
 
 (function($, doc) {
 
-	/*
+	/**
 		Binds event to everything except the element. 
 		If called on array of elements only one handler is attached. Handler is called when event triggers everywhere except any of element from the array.
+
+		Parameters:
+			eventType (string) — A string containing a JavaScript event type, such as `click` or `mousedown`.
+			arg2 (anything) — An object containing data that will be passed to the event handler.
+			arg3 (function(Event event)) — A function to execute each time the event is triggered.
 	*/
 	$.fn.onOut = function(eventType, arg2, arg3) {
 
@@ -25,10 +30,10 @@
 			eventData = arg2;
 
 		if(typeof eventType !== 'string')
-			throw new Exception('EventType must be string');
+			throw 'EventType must be string';
 
 		if(typeof handler !== 'function')
-			throw new Exception('Handler must be function');
+			throw 'Handler must be function';
 
 
 		$(doc).bind(eventType, eventData, function(event) {
@@ -50,7 +55,7 @@
 
 	};
 
-	/*
+	/**
 		Alias to .onOut()
 	*/
 	$.fn.bindOut = $.fn.onOut;
