@@ -11,6 +11,8 @@ Documentation on languages: [english](README.md), [русский](README-RU.md)
 	<script src="jquery-1.11.3.js"></script>
 	<script src="jquery-onout-1.0.js"></script>
 
+Лучше всего будет, если вставить JS-код плагина непосредственно в файл с JS-кодом вашего проекта.
+
 ### .onOut
 
 Привязывает собитие ко всем элементам кроме того, из которого вызван этот метод.

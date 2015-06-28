@@ -11,6 +11,8 @@ First of all download and include [jQuery](http://jquery.com/download/) and [jQu
 	<script src="jquery-1.11.3.min.js"></script>
 	<script src="jquery-onout-1.0.min.js"></script>
 
+It is better to paste text of the plugin JS-file to your project main JS-file.
+
 ### .onOut
 
 Binds event to everything except the element on which this method is called. 
