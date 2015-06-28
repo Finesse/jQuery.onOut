@@ -13,7 +13,7 @@ First of all download and include [jQuery](http://jquery.com/download/) and [jQu
 
 It is better to paste text of the plugin JS-file to your project main JS-file.
 
-### .onOut
+### .onOut()
 
 Binds event to everything except the element on which this method is called. 
 If called on array of elements only one handler is attached. Handler is called when event triggers everywhere except any of element from the array.
@@ -42,6 +42,6 @@ Example:
 		});
 	</script>
 
-### .bindOut
+### .bindOut()
 
-Alias to [`.onOut`](#onout)
+Alias to [`.onOut()`](#onout)

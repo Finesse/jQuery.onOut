@@ -1,4 +1,4 @@
-Documentation on languages: [english](README.md), [русский](README-RU.md).
+Документация на языках: [english](README.md), [русский](README-RU.md).
 
 # jQuery.onOut
 
@@ -8,12 +8,12 @@ Documentation on languages: [english](README.md), [русский](README-RU.md)
 
 В первую очередь скачайте и подключите к HTML коду библиотеку [jQuery](http://jquery.com/download/) и плагин [jQuery.onOut](https://github.com/FinesseRus/jQuery.onOut/archive/master.zip):
 
-	<script src="jquery-1.11.3.js"></script>
-	<script src="jquery-onout-1.0.js"></script>
+	<script src="jquery-1.11.3.min.js"></script>
+	<script src="jquery-onout-1.0.min.js"></script>
 
 Лучше всего будет, если вставить JS-код плагина непосредственно в файл с JS-кодом вашего проекта.
 
-### .onOut
+### .onOut()
 
 Привязывает собитие ко всем элементам кроме того, из которого вызван этот метод.
 Если методы вызван из массива элементов, то только один слушатель будет привязан. Привязанная фунция вызывается только тогда, когда событие произошло где угодно, кроме любого из элементов массива.
@@ -27,7 +27,7 @@ Documentation on languages: [english](README.md), [русский](README-RU.md)
 
 Пример:
 
-	<divОткрытое множество однородно контролирует даосизм, при этом, 
+	<div>Открытое множество однородно контролирует даосизм, при этом, 
 	вместо 13 можно взять любую другую константу. Легко проверить, 
 	что акциденция масштабирует напряженный максимум.</div>
 	<div id="target">Нажми на меня!</div>
@@ -42,6 +42,6 @@ Documentation on languages: [english](README.md), [русский](README-RU.md)
 		});
 	</script>
 
-### .bindOut
+### .bindOut()
 
-Синоним для [`.onOut`](#onout)
+Синоним для [`.onOut()`](#onout)
