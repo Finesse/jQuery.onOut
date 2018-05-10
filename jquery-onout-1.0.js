@@ -1,7 +1,7 @@
 /**
 	jQuery plugin that binds event outside of the element(s)
 
-	https://github.com/FinesseRus/jQuery.onOut
+	https://github.com/Finesse/jQuery.onOut
 
 	v1.0
 */
@@ -42,7 +42,7 @@
 
 			query.each(function() {
 				if(!found)
-					if($(event.target).closest($(this)).length)
+					if($(event.target).closest(this).length)
 						found = true;
 			});
 

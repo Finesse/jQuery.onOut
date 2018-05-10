@@ -6,7 +6,7 @@ Simple jQuery plugin that attaches events outside of the element or the bunch of
 
 ## Usage
 
-First of all download and include [jQuery](http://jquery.com/download/) and [jQuery.onOut](https://github.com/FinesseRus/jQuery.onOut/archive/master.zip) plugin to HTML:
+First of all download and include [jQuery](http://jquery.com/download/) and [jQuery.onOut](jquery-onout-1.0.min.js) plugin to HTML:
 
 	<script src="jquery-1.11.3.min.js"></script>
 	<script src="jquery-onout-1.0.min.js"></script>
